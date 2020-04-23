@@ -14,9 +14,8 @@ class Index extends React.Component {
     }
   }
 
-//   onLoginClick = async () => {
-async onLoginClick(event){
-    // event.preventDefault()
+
+async onLoginClick(event){    
     console.log("Login called");
     let mail = "user@dev.null";
     let pass = "1TrulySecurePassword!!";
